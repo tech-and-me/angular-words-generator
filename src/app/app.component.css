@@ -1,0 +1,39 @@
+.slider {
+    appearance: none;
+    height: 20px;
+    border-radius: 5%;
+    outline: none;
+    margin: 15px;
+}
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    height: 35px;
+    width: 35px;
+    background-color: rgb(80, 231, 239);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top:-12px;
+}
+
+.slider::-moz-range-thumb {
+    appearance: none;
+    height: 35px;
+    width: 35px;
+    background-color: cyan;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top:-12px;
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 35px;
+    margin: 25px 0;
+    width: 250px;
+    font-size: 18px;
+}
+
+/* container{
+    border: 2px white solid!important;
+} */
+
